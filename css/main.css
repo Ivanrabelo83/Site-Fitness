@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-image: url("../images/maxO_TVsaeZNlEunsplashmin2.jpg");
+  background-position: 0px 100px;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+  height: 100px;
+}
+.navbar .logo {
+  height: 30px;
+}
+
+.navbar .data-content {
+  display: flex;
+  align-items: center;
+}
+
+.data-content {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+.section-header {
+  margin-top: 100px;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.section-header .box-border {
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.box-border hr {
+  width: 300px;
+  height: 5px;
+  background-color: #fff;
+  line-height: 8px;
+  border: none;
+  display: flex;
+  justify-content: inherit;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.box-border p {
+  font-size: 33px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.box-border h1 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  font-size: 61px;
+  line-height: 61px;
+}
+.section-header .data-content {
+  display: flex;
+  justify-content: right;
+}
+.section-highlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(128, 204, 248);
+  margin-top: 350px;
+}
+
+.section-highlight .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  position: relative;
+  top: -60px;
+  border-radius: 10px;
+}
+
+.section-highlight .box button {
+  width: 105px;
+  height: 38px;
+  border: 1px solid rgb(153, 193, 247);
+  border-radius: 2px;
+  background-color: #fff;
+}
+.section-highlight .box h1 {
+  margin-bottom: -6px;
+  margin-top: -14px;
+  color: #fff;
+}
+
+.primeira-section {
+  background-color: rgb(255, 255, 255);
+  height: 800px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.primeira-section .left {
+  width: 45%;
+  height: 100%;
+}
+
+.primeira-section .right {
+  width: 50%;
+  height: 100%;
+}
+
+.primeira-section .right h1 {
+  color: aqua;
+}
+
+.primeira-section .left p {
+  font-size: 19px;
+}
+
+.primeira-section .left h1 {
+  color: rgb(225, 0, 255);
+}
+
+.primeira-section .data-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* INICIO SEGUNDA SECTION */
+
+.segunda-section {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: #292d33;
+}
+.segunda-section .data-content {
+  width: 675px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 301px;
+}
+.resume {
+  width: 100%;
+  height: 50%;
+}
+
+.segunda-content img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.segunda-section .data-content .resume .subtitle {
+  justify-content: center;
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+.segunda-section .data-content .resume .title {
+  font-size: 20px;
+  color: rgb(56, 240, 240);
+  display: flex;
+  justify-content: center;
+  margin-bottom: -46px;
+}
+.segunda-section .data-content .resume .details {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  width: 673px;
+}
+.segunda-section .data-content .resume span {
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.segunda-section .data-content .resume .sub-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.segunda-section .data-content .resume .sub-details .detalhes-title {
+  font-size: 30px;
+}
+
+/* FINAL SEGUNDA SECTION */
+
+/* TERCEIRA SECTION */
+
+.terceira-section {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.terceira-section h1 {
+  font-size: 20px;
+}
